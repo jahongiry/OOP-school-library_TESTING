@@ -18,7 +18,7 @@ describe Student do
   end
 
   describe 'parent_permission' do
-    it 'should return parent permission' do
+    it 'should return a parent permission' do
       expect(@student.parent_permission).to eql true
     end
   end
